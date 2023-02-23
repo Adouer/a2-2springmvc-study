@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <!--单闭合不好用-->
+  <script type="text/javascript">
+      var user={
+        name:"赵煜峰",
+        age:18,
+        sex:"男"
+      }
+      console.log(user);
+      //将js对象转为json
+      var json = JSON.stringify(user);
+      console.log(json);
+      //将json转换为js
+      var newUser = JSON.parse(json);
+      console.log(newUser);
+  </script>
+</head>
+<body>
+
+</body>
+</html>
