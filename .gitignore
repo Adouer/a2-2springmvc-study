@@ -1,6 +1,9 @@
+# idea
 .idea/
 *.iml
 *.ipr
 *.iws
 # 项目排除路径
 /out/
+# Maven target directory
+target/
